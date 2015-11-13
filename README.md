@@ -8,6 +8,15 @@ Voraussetzungen für Homebridge:
 GCC 4.8
 gcc --version
 
+Installieren von gcc 4.8 falls benötigt
+
+sudo apt-get install gcc-4.8 g++-4.8
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
+
 Node.js 5.0.0
 node -v
 
